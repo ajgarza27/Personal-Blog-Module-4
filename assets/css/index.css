@@ -69,3 +69,130 @@ h2 {
     width:47%;
     height: 30px;
 }
+
+@media screen and (min-width: 360px){
+
+    h2 {
+        font-size: 4vw;
+        right: 6%; 
+    }
+    
+    }
+    @media  screen and (min-width: 405px) {
+        .blogText{
+            font-size: 24px;
+            right: 60%;
+            top: 32%;
+        }
+    }
+    
+    @media  screen and (min-width: 455px) {
+        h2 {
+            top: -20%; 
+        }
+    
+        .blogText{
+            right: 64%;
+            top: 33%;
+        }
+        
+        .form-container {
+            width: 200px;
+        }  
+    }
+    
+    @media screen and (min-width: 600px){
+        h2 {
+            font-size: 30px;
+            top: -25%; 
+        }
+    
+        .blogCircle {
+            margin-left: 1.5%;
+        }
+        .blogText {
+            font-size: 30px;    
+            right: 65%;
+            top: 38%;
+        }
+    
+        .form-container {
+            width: 250px;
+        }
+    }
+    
+    @media  screen and (min-width: 760px) {
+    
+        .blogText{
+            font-size: 40px;
+            right: 65%;
+            top: 41%;
+        }
+    
+        .form-container {
+            width: 300px;
+        }
+        
+    }
+    
+    @media  screen and (min-width: 950px) {
+        .blogText{
+            font-size: 50px;
+            right: 66%;
+            top: 44%;
+        } 
+    
+        .form-container {
+            width: 350px;
+        }
+    }
+    
+    @media screen and (min-width: 1100px){
+        h2 {
+            font-size: 30px;
+            top: -30%; 
+        }
+    
+        .form-container {
+            width: 400px;
+        }
+    }
+    
+    @media screen and (min-width: 1260px){ 
+        .blogText{
+            font-size: 50px;
+            right: 66%;
+            top: 44%;
+        }
+    }
+    @media  screen and (min-width: 1400px) {
+    
+        .blogText{
+            right: 63%;
+            top: 42%;
+        }
+    
+        .blogCircle {
+            padding: 20pc;
+            right: 53%;
+            top:17%;
+        }
+    
+        .form-container {
+            width: 500px;
+        }
+        
+    }
+    
+    @media  screen and (min-width: 1600px) {
+    
+        .blogCircle {
+            padding: 20pc;
+            right: 53%;
+            top:17%;
+        }
+    
+        .form-container {
+            width: 550px;
+        }
+    }
