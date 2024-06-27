@@ -31,3 +31,41 @@ body {
     top: 31%;
     z-index: 99;   
 }
+.blogCircle {
+    padding: 22%;
+    border-radius: 50%;
+    background: linear-gradient(rgb(254, 243, 192), rgb(255, 219, 15),
+     rgba(255, 196, 68, 0.932), rgb(255, 187, 2), 
+     rgba(172, 117, 0, 0.863), rgba(83, 57, 0, 0.993));
+    position: absolute;
+    right: 55%;
+    top:24%; 
+}
+
+
+h2 {
+    font-size: 12px;
+    position: absolute;
+    right: 8%;
+    top: -17%; 
+}
+
+.form-container {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translateY(-25%);
+    width: 150px;
+}
+
+#button {
+    margin:2px;
+    position: absolute;
+    right: 26%;
+    top: 97%;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    width:47%;
+    height: 30px;
+}
