@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+.h-lines {
+    position: absolute;
+    width: 100%;
+    border-bottom: 14px double black;
+    bottom: 90%;
+}
+
+.v-lines {
+    position: absolute;
+    height: 100vh;
+    border-right: 14px double black;
+    right: 50%;
+    margin-top: 55px;
+}
+
+.blogText {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: absolute;
+    right: 64%;
+    top: 31%;
+    z-index: 99;   
+}
